@@ -1,0 +1,13 @@
+.body-background {
+    background-color: rgb(134, 243, 9);
+}
+
+.blink {
+    animation: blink-animation 1s steps(1) infinite;
+}
+
+@keyframes blink-animation {
+    50% {
+        visibility: hidden;
+    }
+}
